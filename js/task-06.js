@@ -8,9 +8,7 @@ function checkInputLength(event) {
     const valueLength = this.dataset.length;
     if (event.currentTarget.value.length === Number(valueLength)) {
         input.classList = 'valid'
-        return
     } else {
         input.classList = 'invalid'
-        return
     } 
 }
