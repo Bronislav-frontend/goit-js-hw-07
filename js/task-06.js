@@ -9,8 +9,8 @@ function checkInputLength(event) {
     if (event.currentTarget.value.length === Number(valueLength)) {
         input.classList = 'valid'
         return
-    } if (event.currentTarget.value.length > 0 || event.currentTarget.value.length ===!Number(valueLength)) {
+    } else {
         input.classList = 'invalid'
         return
-    } input.classList.remove('invalid')
+    } 
 }
